@@ -32,36 +32,6 @@ let About = Vue.component(
 	}
 );
 
-let VideoDetail = Vue.component(
-	'video-detail',
-	{
-		created: function(){
-			this.video = videoMap[this.$route.params.videoName];
-			if(!this.video){
-				console.log('Video not found.');
-				router.replace('/');
-				router.go('/');
-			}
-		},
-		template: `
-			<div class="video-detail" v-if="video">
-				<div class="video-theatre">
-					<div class="container">
-						<videoport :video="video" />
-					</div>
-				</div>
-				<div class="theatre-fade"></div>
-				<div class="video-description">
-					<div class="container">
-						<div class="box forText"><h1>{{video.title}}</h1></div>
-						<div class="box forText" v-html="video.description"></div>
-					</div>
-				</div>
-			</div>
-		`
-	}
-);
-
 let VideoList = Vue.component(
 	'video-list',
 	{
@@ -76,7 +46,7 @@ let VideoList = Vue.component(
 					<video-list-item
 						v-for="video in videoList"
 						:video="video"
-						:key="video.name" />
+						:key="video.id" />
 				</div>
 			</div>
 		`
@@ -86,15 +56,14 @@ let VideoList = Vue.component(
 Vue.component(
 	'video-list-item',
 	{
-		mixins: [mixinAddresses],
 		props: {
 			video: Object
 		},
 		template: `
 			<div class="video-list-item">
-				<router-link :to="'/video/' + video.name">
+				<router-link :to="'/video/' + video.id">
 					<span class="box">
-						<span class="thumbHolder"><span class="thumb"><img :src="thumbUrl(video)" /></span></span>
+						<span class="thumbHolder"><span class="thumb"><img :src="video.thumb" /></span></span>
 						<span class="titleHolder"><span class="title">{{video.title}}</span></span>
 					</span>
 				</router-link>
