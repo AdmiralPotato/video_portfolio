@@ -1,3 +1,6 @@
+let data = require('./static/data');
+let routes = data.videoList.map((video)=>{return '/video/' + video.id});
+
 module.exports = {
 	transition: {
 		name: 'fadeOutRight',
@@ -22,5 +25,8 @@ module.exports = {
 	},
 	plugins: [
 		{ src: '~plugins/ga.js', ssr: false }
-	]
+	],
+	generate:{
+		routes
+	}
 };
