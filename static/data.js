@@ -209,3 +209,8 @@ videoList.forEach(function(video){
 	video.path_1920 = `${videoAddressPrefix}${video.id}-1920x1080`;
 	videoMap[video.id] = video;
 });
+
+module.exports = {
+	videoList,
+	videoMap
+};
