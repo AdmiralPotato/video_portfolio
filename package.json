@@ -29,7 +29,7 @@
   "dependencies": {
     "nuxt": "^1.0.0-alpha.5",
     "vue-analytics": "^4.1.3",
-    "vue-perfectlooper": "^1.0.0"
+    "vue-perfectlooper": "^1.0.1"
   },
   "devDependencies": {
     "push-dir": "^0.4.1"
