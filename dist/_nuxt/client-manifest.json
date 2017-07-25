@@ -7,15 +7,15 @@
     "3.nuxt.bundle.7a18681b561b77763d60.js",
     "4.nuxt.bundle.1b230839879b3b72bc4e.js",
     "vendor.bundle.68a35620e4b7df1f9033.js",
-    "nuxt.bundle.bb82c9c3451463ce46dc.js",
+    "nuxt.bundle.ef2ba2e6471cac0345b6.js",
     "7.nuxt.bundle.48530e99de496c429101.js",
-    "manifest.5f53ed488fd9ce8f4ebc.js",
+    "manifest.e79a88745fbf69327782.js",
     "index.html"
   ],
   "initial": [
-    "manifest.5f53ed488fd9ce8f4ebc.js",
+    "manifest.e79a88745fbf69327782.js",
     "vendor.bundle.68a35620e4b7df1f9033.js",
-    "nuxt.bundle.bb82c9c3451463ce46dc.js"
+    "nuxt.bundle.ef2ba2e6471cac0345b6.js"
   ],
   "async": [
     "0.nuxt.bundle.937ae88c35742e9ab8a4.js",

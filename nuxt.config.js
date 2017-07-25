@@ -1,5 +1,6 @@
 let data = require('./static/data');
 let routes = data.videoList.map((video)=>{return '/video/' + video.id});
+routes.push('/404');
 
 module.exports = {
 	transition: {
@@ -14,7 +15,6 @@ module.exports = {
 			{name: "viewport", content: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"},
 		],
 		script: [
-			{ src: 'https://unpkg.com/fullscreen-api-polyfill@1.1.2' },
 			{ src: 'https://unpkg.com/mq-genie@1.0.0/mq.genie.min.js'},
 		],
 		link: [
