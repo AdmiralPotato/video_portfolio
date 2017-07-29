@@ -27,7 +27,7 @@
 	export default {
 		components: {VuePerfectlooper},
 		asyncData: function(context, callback){
-			import('~static/data').then(function (data) {
+			import('~/static/data').then(function (data) {
 				let videoName = context.params.video;
 				let video = data.videoMap[videoName];
 				if(!video){

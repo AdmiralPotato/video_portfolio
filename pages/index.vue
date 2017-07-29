@@ -5,7 +5,7 @@
 				v-for="video in videoList"
 				class="video-list-item"
 				:key="video.id">
-				<nuxt-link :to="'/video/' + video.id">
+				<nuxt-link :to="'/video/' + video.id + '/'">
 					<span class="box">
 						<span class="thumbHolder"><span class="thumb"><img :src="video.thumb" /></span></span>
 						<span class="titleHolder"><span class="title">{{video.title}}</span></span>
@@ -19,7 +19,7 @@
 <script>
 	export default {
 		asyncData: function(){
-			return import('~static/data');
+			return import('~/static/data');
 		}
 	};
 </script>
