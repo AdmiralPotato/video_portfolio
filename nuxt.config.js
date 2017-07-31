@@ -4,7 +4,8 @@ routes.push('/404');
 
 module.exports = {
 	env: {
-		canonicalBase: 'http://video.nuclearpixel.com'
+		canonicalBase: 'http://video.nuclearpixel.com',
+		googleAnalyticsId: 'UA-7088806-7'
 	},
 	transition: {
 		name: 'fadeOutRight',

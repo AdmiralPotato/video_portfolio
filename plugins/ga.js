@@ -1,11 +1,12 @@
 import Vue from 'vue'
 import VueAnalytics from 'vue-analytics'
+let analyticsId = process.env.googleAnalyticsId;
 
 export default ({ app: { router }, store }) => {
 	Vue.use(
 		VueAnalytics,
 		{
-			id: 'UA-7088806-7',
+			id: analyticsId,
 			autoTracking: {
 				exception: true
 			},

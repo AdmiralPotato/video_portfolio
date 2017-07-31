@@ -28,6 +28,7 @@
   "homepage": "https://github.com/AdmiralPotato/video_portfolio#readme",
   "dependencies": {
     "nuxt": "^1.0.0-rc3",
+    "strip": "^3.0.0",
     "vue-analytics": "^4.1.3",
     "vue-perfectlooper": "^1.1.0"
   },
