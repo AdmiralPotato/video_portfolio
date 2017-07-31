@@ -1,5 +1,12 @@
 <template>
 	<div class="video-detail" v-if="video">
+		<open-graph
+			:alt="'A perfectly looping animation, titled: ' + video.title"
+			:title="'Animation: ' + video.title"
+			:image="video.ogPreview"
+			:description="video.description"
+			:canonicalUrl="canonicalUrl"
+		/>
 		<div class="video-theatre">
 			<div class="container">
 				<vue-perfectlooper
@@ -23,9 +30,10 @@
 
 <script>
 	import VuePerfectlooper from 'vue-perfectlooper';
+	import OpenGraph from '~/components/open-graph.vue'
 
 	export default {
-		components: {VuePerfectlooper},
+		components: {VuePerfectlooper, OpenGraph},
 		asyncData: function(context, callback){
 			import('~/static/data').then(function (data) {
 				let videoName = context.params.video;
@@ -36,12 +44,14 @@
 						statusCode: 404
 					});
 				}
-				callback(null, {video});
+				callback(null, {
+					video,
+					canonicalUrl: context.env.canonicalBase + context.route.path
+				});
 			});
 		},
 		data: function () {
 			return {
-				video: this.video,
 				src: ''
 			}
 		},

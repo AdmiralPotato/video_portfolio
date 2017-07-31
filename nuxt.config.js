@@ -1,8 +1,11 @@
 let data = require('./static/data');
-let routes = data.videoList.map((video)=>{return '/video/' + video.id});
+let routes = data.videoList.map((video)=>{return `/video/${video.id}/`});
 routes.push('/404');
 
 module.exports = {
+	env: {
+		canonicalBase: 'http://video.nuclearpixel.com'
+	},
 	transition: {
 		name: 'fadeOutRight',
 		mode: 'out-in',
@@ -10,6 +13,7 @@ module.exports = {
 		leaveActiveClass: "animated fadeOutLeft"
 	},
 	head: {
+		title: "Admiral Potato's Video Portfolio",
 		meta: [
 			{charset: "UTF-8"},
 			{name: "viewport", content: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"},

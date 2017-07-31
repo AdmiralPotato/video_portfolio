@@ -2,37 +2,37 @@
   "publicPath": "/_nuxt/",
   "all": [
     "1.nuxt.bundle.0941467a595920854df3.js.map",
-    "0.nuxt.bundle.a0528ec5a7522faed869.js",
-    "2.nuxt.bundle.ffa84c310b8f43c3c6c6.js",
+    "0.nuxt.bundle.3c1311f2b1d6519876a1.js",
+    "2.nuxt.bundle.bb7e96c17b83976e1ffb.js",
     "3.nuxt.bundle.f946ad638f8776e9dd17.js",
     "4.nuxt.bundle.a8d6b8d872fffc408ac6.js",
     "vendor.bundle.d771f679657c66902a4a.js",
-    "nuxt.bundle.6e5f260bede3e82e18a6.js",
-    "7.nuxt.bundle.42096fde535ab141b10d.js",
-    "manifest.a7230261d572f1a14708.js",
-    "0.nuxt.bundle.a0528ec5a7522faed869.js.map",
+    "nuxt.bundle.f12bcf86db5abf35acdf.js",
+    "7.nuxt.bundle.4d765e247404bffe46e3.js",
+    "manifest.652fd25f7d1e34b6bdda.js",
+    "0.nuxt.bundle.3c1311f2b1d6519876a1.js.map",
     "1.nuxt.bundle.0941467a595920854df3.js",
-    "2.nuxt.bundle.ffa84c310b8f43c3c6c6.js.map",
+    "2.nuxt.bundle.bb7e96c17b83976e1ffb.js.map",
     "3.nuxt.bundle.f946ad638f8776e9dd17.js.map",
     "4.nuxt.bundle.a8d6b8d872fffc408ac6.js.map",
     "vendor.bundle.d771f679657c66902a4a.js.map",
-    "nuxt.bundle.6e5f260bede3e82e18a6.js.map",
-    "7.nuxt.bundle.42096fde535ab141b10d.js.map",
-    "manifest.a7230261d572f1a14708.js.map",
+    "nuxt.bundle.f12bcf86db5abf35acdf.js.map",
+    "7.nuxt.bundle.4d765e247404bffe46e3.js.map",
+    "manifest.652fd25f7d1e34b6bdda.js.map",
     "index.ssr.html",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.a7230261d572f1a14708.js",
+    "manifest.652fd25f7d1e34b6bdda.js",
     "vendor.bundle.d771f679657c66902a4a.js",
-    "nuxt.bundle.6e5f260bede3e82e18a6.js"
+    "nuxt.bundle.f12bcf86db5abf35acdf.js"
   ],
   "async": [
-    "0.nuxt.bundle.a0528ec5a7522faed869.js",
-    "2.nuxt.bundle.ffa84c310b8f43c3c6c6.js",
+    "0.nuxt.bundle.3c1311f2b1d6519876a1.js",
+    "2.nuxt.bundle.bb7e96c17b83976e1ffb.js",
     "3.nuxt.bundle.f946ad638f8776e9dd17.js",
     "4.nuxt.bundle.a8d6b8d872fffc408ac6.js",
-    "7.nuxt.bundle.42096fde535ab141b10d.js",
+    "7.nuxt.bundle.4d765e247404bffe46e3.js",
     "1.nuxt.bundle.0941467a595920854df3.js"
   ],
   "modules": {
@@ -617,6 +617,18 @@
       9
     ],
     "b6fd1e5e": [
+      1,
+      9
+    ],
+    "7680c0fe": [
+      1,
+      9
+    ],
+    "114a2409": [
+      1,
+      9
+    ],
+    "77e0ed48": [
       1,
       9
     ],

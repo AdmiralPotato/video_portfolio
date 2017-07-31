@@ -205,6 +205,7 @@ videoList.forEach(function(video){
 	video.frames = parseInt(video.id.split('-').pop(), 10);
 	video.thumb = `${videoAddressPrefix}${video.id}-thumb.jpg`;
 	video.poster = `${videoAddressPrefix}${video.id}-preview.jpg`;
+	video.ogPreview = `${videoAddressPrefix}${video.id}-og_preview.jpg`;
 	video.path_960 = `${videoAddressPrefix}${video.id}-960x540`;
 	video.path_1920 = `${videoAddressPrefix}${video.id}-1920x1080`;
 	videoMap[video.id] = video;
