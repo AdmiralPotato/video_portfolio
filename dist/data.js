@@ -2,6 +2,13 @@
 
 let videoList = [
 	{
+		"title": "Regolo Bizzi tribute: \"Astral Expansion\"",
+		"id": "regolo_bizzi_tribute_astral_expansion-24",
+		"tumblrId": 163655593654,
+		"description": "<p>I wish that I had dedicated more time to this design. As beautiful as it may be, I don’t think I did justice to the amazing inspiration that I was filled with when I saw <a target=\"_blank\" href=\"http://regolo54.tumblr.com/post/135107166597/geometry\">Regolo Bizzi’s design that inspired me</a>. I rushed myself on this design, because I wanted to post one before the end of the month. Ah well. It’s not that this is bad. It’s just less… than I wanted it to be.</p>\n<p>Why was I rushed? Because I’ve been putting so much effort into my new Video Portfolio!</p><p><a target=\"_blank\" href=\"http://imgur.com/gallery/UfVRP\">Check out each step of the creative process for this animation at this Imgur gallery.</a></p>",
+		"date": "2017-07-31 23:59:11 GMT"
+	},
+	{
 		"title": "Diamond Waves",
 		"id": "diamond_waves-48",
 		"tumblrId": 162451078334,
