@@ -207,7 +207,7 @@ let videoList = [
 ];
 
 let videoMap = {};
-let videoAddressPrefix = 'https://aws-website-videonuclearpixelcom-tgl8t.s3.amazonaws.com/content/';
+let videoAddressPrefix = './content/';
 videoList.forEach(function(video){
 	video.frames = parseInt(video.id.split('-').pop(), 10);
 	video.thumb = `${videoAddressPrefix}${video.id}-thumb.jpg`;

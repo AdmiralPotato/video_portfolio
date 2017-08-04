@@ -56,8 +56,7 @@
 			}
 		},
 		mounted: function(){
-			let screenHasHdManyPixels = (Math.max(screen.width, screen.height) * window.devicePixelRatio) > 960;
-			this.src = screenHasHdManyPixels ? this.video.path_1920 : this.video.path_1920;
+			this.src = this.video.path_1920;
 		}
 	};
 </script>
