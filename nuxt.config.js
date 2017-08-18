@@ -24,9 +24,12 @@ module.exports = {
 		],
 		link: [
 			{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Exo+2:400,400italic,800,300,300italic' },
-			{ rel: 'stylesheet', href: '/styles.css' },
 		]
 	},
+	css: [
+		'animate.css/animate.css',
+		'~/css/styles.css'
+	],
 	plugins: [
 		{ src: '~plugins/ga.js', ssr: false }
 	],

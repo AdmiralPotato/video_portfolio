@@ -22,8 +22,6 @@
 </template>
 
 <script>
-	import 'animate.css';
-
 	export default {
 		mounted: function () {
 			let disableFocusOutlines = function () {
