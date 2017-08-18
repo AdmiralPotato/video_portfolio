@@ -5,7 +5,7 @@
 		<header class="container">
 			<div class="brand">
 				<h1><nuxt-link to="/"><em>Video</em>.NuclearPixel.com</nuxt-link></h1>
-				<h4>v0.1.0</h4>
+				<h4>v0.1.1</h4>
 			</div>
 			<nav>
 				<ul>
@@ -22,6 +22,8 @@
 </template>
 
 <script>
+	import 'animate.css';
+
 	export default {
 		mounted: function () {
 			let disableFocusOutlines = function () {

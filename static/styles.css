@@ -218,7 +218,21 @@ header nav li{
 }
 
 .box.forText {
+	position: relative;
 	padding: 0.25rem 1rem;
+}
+.box.forText:after{
+	display: block;
+	position: absolute;
+	z-index: -1;
+	content: ' ';
+	top:    4px;
+	bottom: 4px;
+	left:   4px;
+	right:  4px;
+	border-radius: 1px;
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.25);
+	background-color: rgba(0,0,0,0.25);
 }
 
 a .box:hover:before{
@@ -258,13 +272,12 @@ a .box:focus:before{
 }
 .theatre-fade{
 	position: relative;
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5));
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 	height: 1rem;
 	z-index: -1;
 }
 .video-description{
 	position: relative;
-	background-color: rgba(0, 0, 0, 0.25);
 	padding-bottom: 1rem;
 }
 

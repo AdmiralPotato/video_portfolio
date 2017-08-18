@@ -24,7 +24,6 @@ module.exports = {
 		],
 		link: [
 			{ rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Exo+2:400,400italic,800,300,300italic' },
-			{ rel: 'stylesheet', href: 'https://unpkg.com/animate.css@3.5.2' },
 			{ rel: 'stylesheet', href: '/styles.css' },
 		]
 	},
