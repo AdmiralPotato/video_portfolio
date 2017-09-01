@@ -2,6 +2,13 @@
 
 let videoList = [
 	{
+		"title": "Nebula Cells - MisteryMyra Collaboration",
+		"id": "nebula_cells_misterymyra_collaboration-48",
+		"tumblrId": 164841418624,
+		"description": "<p><a href=\"http://imgur.com/gallery/affWs\">Check out each step of the creative process for this animation at this Imgur gallery.</a> It’s AMAZING how many steps we put into this!</p><p>These are Cells that contain Nebulas that are twisting, growing, evolving, and becoming more awesome all the time! :D</p><p>\n\nThis is by far one of the most complex design iteration processes I&rsquo;ve ever worked through. The biggest problem has been that we kept seeing potential to move the design in a new direction without making a decision on exactly what it could or should be.</p><p>I have thoroughly enjoyed working with <a href=\"https://tmblr.co/mbrLNTDQWyhMR1r0mhmeZFA\">@misterymyra</a> over screen sharing to create this entire series of iterations. We came across so many shared inspirations and spent so much time working together to create this set, and I am incredibly grateful for her time and patience as well as her creativity and problem solving while we have worked on this. :D Thank you!<br/></p>",
+		"date": "2017-08-31 23:59:07 GMT"
+	},
+	{
 		"title": "Regolo Bizzi tribute: \"Astral Expansion\"",
 		"id": "regolo_bizzi_tribute_astral_expansion-24",
 		"tumblrId": 163655593654,
