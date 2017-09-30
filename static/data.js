@@ -2,6 +2,13 @@
 
 let videoList = [
 	{
+		"title": "Laser Hexagrams - MisteryMyra Collaboration Part 2",
+		"id": "laser_hexagrams_misterymyra_collaboration-48",
+		"tumblrId": 165912896139,
+		"description": "<p>This is another one of the branches of ideas that <a target=\"_blank\" href=\"https://misterymyra.tumblr.com/\">@misterymyra</a> and I came up with while working on our previously posted collaboration. There may still be a few more branches we can explore on this tree. I don't think I have much to say about this, but we are both pleased with how relaxing this one feels, now that it's finished.</p>\n<p><a target=\"_blank\" href=\"https://imgur.com/gallery/AhCuc\">Check out the Creative Process gallery for this design here.</a></p>",
+		"date": "2017-09-30 23:00:55 GMT"
+	},
+	{
 		"title": "Nebula Cells - MisteryMyra Collaboration",
 		"id": "nebula_cells_misterymyra_collaboration-48",
 		"tumblrId": 164841418624,
