@@ -2,6 +2,13 @@
 
 let videoList = [
 	{
+		"title": "Candy Corn Rain",
+		"id": "candy_corn_rain-48",
+		"tumblrId": 0,
+		"description": "<p>This is the stuff that my <a href=\"http://video.nuclearpixel.com/video/ghost_wants_candy_corn-96/\" />Cute Little Ghost</a>'s dreams are made of.</p>",
+		"date": "2017-10-26 05:00:55 GMT"
+	},
+	{
 		"title": "Laser Hexagrams - MisteryMyra Collaboration Part 2",
 		"id": "laser_hexagrams_misterymyra_collaboration-48",
 		"tumblrId": 165912896139,
@@ -268,6 +275,8 @@ let videoList = [
 		"date": "2015-03-24 23:01:03 GMT"
 	}
 ];
+
+videoList.sort(function(a, b){return (new Date(b.date)).getTime() - (new Date(a.date)).getTime()});
 
 let videoMap = {};
 let videoAddressPrefix = 'https://aws-website-videonuclearpixelcom-tgl8t.s3.amazonaws.com/content/';
