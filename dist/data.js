@@ -2,11 +2,18 @@
 
 let videoList = [
 	{
+		"title": "Snowflake Lattice - MisteryMyra Collaboration Part 3",
+		"id": "snowflake_latice_misterymyra_collaboration-48",
+		"tumblrId": 0,
+		"description": "<p>This is the third and final branch of ideas that <a target=\"_blank\" href=\"https://misterymyra.tumblr.com/\">@misterymyra</a> and I came up with while working on our first collaboration. I think that this is my favorite in the set!</p><p><a target=\"_blank\" href=\"https://imgur.com/gallery/RFFF0\">Check out the Creative Process gallery for this design here.</a></p>",
+		"date": "2017-11-30 06:00:00 GMT"
+	},
+	{
 		"title": "Candy Corn Rain",
 		"id": "candy_corn_rain-48",
-		"tumblrId": 0,
+		"tumblrId": 166812112749,
 		"description": "<p>This is the stuff that my <a href=\"http://video.nuclearpixel.com/video/ghost_wants_candy_corn-96/\" />Cute Little Ghost</a>'s dreams are made of.</p>",
-		"date": "2017-10-26 05:00:55 GMT"
+		"date": "2017-10-26 12:08:40 GMT"
 	},
 	{
 		"title": "Laser Hexagrams - MisteryMyra Collaboration Part 2",
