@@ -2,11 +2,18 @@
 
 let videoList = [
 	{
+		"title": "GIFmas Tree 2017 - Diamond Waves",
+		"id": "gifmas_tree_2017_diamond_waves-48",
+		"tumblrId": 168941839759,
+		"description": "<p>Merry GIFmas, everyone! Each year, I practice a tradition of introspection and reflection on the designs that I’ve created over that year, the inspirations which lead to them, and the techniques that I used to create them. I then create a new design in the shape of a tree, but composed of elements from the designs of that year. <a target=\"_blank\" href=\"http://admiralpotato.tumblr.com/tagged/gifmas\">I call this tradition \"GIFmas\"</a>.</p><p>This year, the design that I felt was most deserving of a revisit was titled <a href=\"/video/diamond_waves-48/\">\"Diamond Waves\"</a> - and this may just be my favorite GIFmas tree to date. :)</p><p><a target=\"_blank\" href=\"https://imgur.com/gallery/iADNG\">Check out the Creative Process gallery for this design here.</a></p>",
+		"date": "2017-12-26 00:00:02 GMT"
+	},
+	{
 		"title": "Snowflake Lattice - MisteryMyra Collaboration Part 3",
 		"id": "snowflake_latice_misterymyra_collaboration-48",
-		"tumblrId": 0,
+		"tumblrId": 168053330589,
 		"description": "<p>This is the third and final branch of ideas that <a target=\"_blank\" href=\"https://misterymyra.tumblr.com/\">@misterymyra</a> and I came up with while working on our first collaboration. I think that this is my favorite in the set!</p><p><a target=\"_blank\" href=\"https://imgur.com/gallery/RFFF0\">Check out the Creative Process gallery for this design here.</a></p>",
-		"date": "2017-11-30 06:00:00 GMT"
+		"date": "2017-11-30 20:03:55 GMT"
 	},
 	{
 		"title": "Candy Corn Rain",
