@@ -2,6 +2,13 @@
 
 let videoList = [
 	{
+		"title": "Layers of Ridges",
+		"id": "layers_of_ridges-48",
+		"tumblrId": 170370710604,
+		"description": "<p>This animation is tribute to a design by <a target=\"_blank\" href=\"https://twitter.com/stockandrender\">Matt Mills / @stockandrender</a>, titled <a target=\"_blank\" href=\"https://stockandrender.tumblr.com/post/166926835776/never-enough-prints-available-at\">“[Never Enough]”</a>. This animation is also my entry to the <a target=\"_blank\" href=\"https://gifartistscollective.tumblr.com/\">GIF Artists Collective</a> January 2018 monthly design theme of “Layers”.</p><p>Additional influence came from a design named <a target=\"_blank\" href=\"http://bigblueboo.tumblr.com/post/139854893516/timespace\">“timespace”</a> by <a target=\"_blank\" href=\"https://twitter.com/bigblueboo\">Charlie Deck / @bigblueboo</a></p><p><a target=\"_blank\" href=\"https://imgur.com/gallery/Sp7oi\">You can see and read about out each step of this design’s development at the Creative Process Gallery.</a></p>",
+		"date": "2018-01-31 23:59:02 GMT"
+	},
+	{
 		"title": "GIFmas Tree 2017 - Diamond Waves",
 		"id": "gifmas_tree_2017_diamond_waves-48",
 		"tumblrId": 168941839759,
