@@ -2,6 +2,13 @@
 
 let videoList = [
 	{
+		"title": "Hex Doctor",
+		"id": "hex_doctor-64",
+		"tumblrId": null,
+		"description": "<p><a target=\"_blank\" href=\"https://photos.app.goo.gl/I3AzFuTC3IMT8myl1\">Lossless 4K wallpapers of this design are available at G+ Photos.</a></p><p>When I was a kid, there was a game that came pre-installed on a lot of my school's Macintosh computers called <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=7h4ss5mrEG0\">\"Spin Doctor\"</a>. It was a game about square grids of dots, and the sticks that would rotate around those dots, then connect to and rotate around adjacent dots to <a target=\"_blank\" href=\"https://youtu.be/pKYI2MPU8qU?t=7m3s\">traverse the perils of the level</a>.</p><p>I don't know why I started thinking about that game again recently, but it occurred to me that the game could be played on any arbitrarily arranged set of dots, as long as any two dots were spaced the length of the stick away from each other. This idea worked well with the <a target=\"_blank\" href=\"https://gifartistscollective.tumblr.com/\">GIF Artists Collective</a> February 2018 monthly design theme of “Hexagon”. I threw this design together in about 2 nights and... I've got to say, it really satisfies my curiosity in wondering what that game would look like if rendered in a modern context, on a hexagonal grid.</p><p><a target=\"_blank\" href=\"https://imgur.com/gallery/LwbEH\">You can see and read about out each step of this design’s development at the Creative Process Gallery.</a></p>",
+		"date": "2018-02-28 06:40:02 GMT"
+	},
+	{
 		"title": "Layers of Ridges",
 		"id": "layers_of_ridges-48",
 		"tumblrId": 170370710604,
